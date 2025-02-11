@@ -14,10 +14,10 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  firstname: {
+  firstName: {
     type: String,
   },
-  lastname: {
+  lastName: {
     type: String,
   },
   creditBalance: {
